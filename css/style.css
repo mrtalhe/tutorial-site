@@ -23,7 +23,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 100vh;
-  border-bottom-right-radius: 250px;
+
 }
 .header-content{
   display: flex;
@@ -40,3 +40,16 @@ align-items: center;
 .bgcolor { background-color:#fc554b; } 
 .forecolor { color:#fc554b; } 
 .bordercolor { border:3px solid #fc554b; }
+
+.box{
+  box-shadow: rgba(206, 49, 49, 0.25) 0px 6px 12px -2px, rgba(172, 45, 45, 0.3) 0px 3px 7px -3px;
+}
+
+.product-img{
+
+  height: 14rem;
+}
+
+.fw{
+  font-weight:800;
+}
