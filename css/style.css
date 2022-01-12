@@ -23,6 +23,7 @@ body{
   background-size: cover;
   background-position: center;
   height: 100vh;
+  border-bottom-right-radius: 150px;
 
 }
 .header-content{
@@ -52,4 +53,12 @@ align-items: center;
 
 .fw{
   font-weight:800;
+}
+
+.comment-img{
+  border-radius: 15px 50px 30px;
+  height: 10rem;
+}
+.sectionfour{
+  background: #e7e7e7;
 }
