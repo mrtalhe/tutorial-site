@@ -56,9 +56,13 @@ align-items: center;
 }
 
 .comment-img{
-  border-radius: 15px 50px 30px;
-  height: 10rem;
+
+  border-radius: 50%;
+  width: 130px;
+  height: 110px;
 }
 .sectionfour{
-  background: #e7e7e7;
+  background: #ededed;
+  clip-path: polygon(50% 0%, 80% 10%, 100% 20%, 100% 78%, 80% 90%, 50% 100%, 20% 90%, 0 79%, 0 19%, 20% 10%);
+  
 }
