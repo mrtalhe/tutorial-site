@@ -62,7 +62,24 @@ align-items: center;
   height: 110px;
 }
 .sectionfour{
-  background: #ededed;
-  clip-path: polygon(50% 0%, 80% 10%, 100% 20%, 100% 78%, 80% 90%, 50% 100%, 20% 90%, 0 79%, 0 19%, 20% 10%);
+  background: #eeeeee;
   
+}
+
+.coach-img{
+
+  width: 110rem;
+  height: 40rem;
+  background-color: #fc554b ;
+  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+}
+
+.sectionfive{
+  margin-top: 6rem;
+}
+@media screen and (max-width: 600px) {
+.sectionfivev{
+  margin-top: 3rem;
+}
 }
