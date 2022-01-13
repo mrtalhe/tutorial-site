@@ -24,7 +24,6 @@ body{
   background-position: center;
   height: 100vh;
   border-bottom-right-radius: 150px;
-
 }
 .header-content{
   display: flex;
@@ -69,7 +68,7 @@ align-items: center;
 .coach-img{
 
   width: 110rem;
-  height: 40rem;
+  max-height: 40rem;
   background-color: #fc554b ;
   clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 
@@ -89,3 +88,18 @@ align-items: center;
 .postsimg{
  border-radius: 15px 50px;;
 }
+
+.socialimg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.navlinkfooter:hover{
+color: black !important;
+}
+
