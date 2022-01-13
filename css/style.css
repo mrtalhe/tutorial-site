@@ -77,9 +77,15 @@ align-items: center;
 
 .sectionfive{
   margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 @media screen and (max-width: 600px) {
 .sectionfivev{
   margin-top: 3rem;
 }
+}
+
+
+.postsimg{
+ border-radius: 15px 50px;;
 }
