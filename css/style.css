@@ -18,11 +18,11 @@ body{
 }
 
 .sectionOne{
-  background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url(../images/header.jpeg);
+  background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url(../images/header2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   border-bottom-right-radius: 150px;
 }
 .header-content{
@@ -91,7 +91,6 @@ align-items: center;
 
 .socialimg{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   
@@ -103,3 +102,6 @@ align-items: center;
 color: black !important;
 }
 
+.coursefooterlink:hover{
+  color: #f7f7f7 !important;
+}
