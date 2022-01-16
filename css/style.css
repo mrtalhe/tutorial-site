@@ -18,10 +18,8 @@ body{
 }
 
 .sectionOne{
-  background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url(../images/header2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(rgba(20,20,20,0.5), rgba(20,20,20,0.5)), url(../images/header2.jpg) no-repeat center center/cover;
+
   height: 90vh;
   border-bottom-right-radius: 150px;
 }
@@ -60,10 +58,7 @@ align-items: center;
   width: 130px;
   height: 110px;
 }
-.sectionfour{
-  background: #eeeeee;
-  
-}
+
 
 .coach-img{
 
@@ -72,6 +67,10 @@ align-items: center;
   background-color: #fc554b ;
   clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 
+}
+
+.sectionfour{
+  background-color: #ff878d;
 }
 
 .sectionfive{
@@ -103,7 +102,7 @@ color: black !important;
 }
 
 .coursefooterlink:hover{
-  color: #f7f7f7 !important;
+  color: #fc554b !important;
 }
 
 .myform{
@@ -112,3 +111,17 @@ color: black !important;
   align-items: center;
   flex-direction: column;
 }
+
+
+.footer{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.title-comment{
+background-color: #1b1b1b ;
+}
+
+@media (max-width: 768px) {
+  .sectionOne {
+    height: 35rem; } }
+
