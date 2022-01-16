@@ -105,3 +105,10 @@ color: black !important;
 .coursefooterlink:hover{
   color: #f7f7f7 !important;
 }
+
+.myform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
